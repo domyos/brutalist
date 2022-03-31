@@ -43,7 +43,7 @@
             <a name="top"></a>
             <p>
               <time datetime=" {{ page.date }}">
-                <script>document.write(moment('{{ page.date }}').format('LL'));</script>
+                <script>document.write(moment('{{ page.date }}').format('D.MM.YYYY'));</script>
               </time>
             </p>
         </footer>
@@ -57,7 +57,7 @@
          {{ page.content|safe }}
       </div>
       <div class="back-to-top">
-          <a href="#top">back to top</a>
+          <a href="#top">Zurück zum Seitenanfang</a>
       </div>
       {% if DISQUS_SITENAME %}
       <div id="disqus_thread"></div>
