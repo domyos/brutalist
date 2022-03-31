@@ -76,7 +76,7 @@
             {% if GRAVATAR %}
             <a href="/"><img src="{{ GRAVATAR }}" alt="Matt McManus Avatar" class="gravatar"></a>
             {% elif LOGO %}
-	    <a href="/"><img src="{{ SITEURL }}/images/{{ LOGO }}" alt="{{ FIRST_NAME }}'s Logo"></a>
+	    <a href="/"><img src="{{ SITEURL }}/images/{{ LOGO }}" alt="{{ FIRST_NAME }}'s Logo" style="border-radius: 50%;"></a>
             {% else %}
             <h1><a href="/">{{ FIRST_NAME }}'s Blog</a></h1>
             {% endif %}
