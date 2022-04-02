@@ -11,7 +11,7 @@
                 <footer>
                         <p>
                         <time datetime="{{ article.date }}">
-                            <script>document.write(moment('{{ article.date }}').format('D.MM.YYYY'));</script>
+                            <script>document.write(moment('{{ article.date }}').format('DD.MM.YYYY'));</script>
                         </time>
                         {% if article.category %}
                             {% if article.category != "misc" %}
